@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSH Jewelry Design | Rhino 3D Plugins</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">MSH JEWELRY</span>
+            <div class="nav-links">
+                <a href="#features">Commands</a>
+                <a href="#about">About</a>
+                <a href="customisation-request.html" class="cta-link">Request Custom Tool</a>
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <h1>Precision Jewelry CAD Tools</h1>
+            <p>Elevate your Rhino 3D workflow with professional-grade automation scripts.</p>
+            <a href="#features" class="btn-primary">Explore Commands</a>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2 class="section-title">Command Library</h2>
+        <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="gemstone">Gemstone Setting</button>
+            <button class="filter-btn" data-filter="metal">Metal Analysis</button>
+            <button class="filter-btn" data-filter="utility">Workflow Utilities</button>
+        </div>
+        <div class="command-grid" id="commandGrid">
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
